@@ -1,6 +1,8 @@
 # DQN Algorithms Comparison on Inverted Pendulum-v4
 
-This repository implements and compares three Deep Q-Network (DQN) variants—**Vanilla DQN**, **Double DQN**, and **Dueling DQN**—on the classic `InvertedPendulum-v4` control problem from the Gymnasium library. The project analyzes learning efficiency, stability, and overall performance in a continuous control task adapted for discrete actions.
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1m7KI03UVxwEN3F8xSwbS2f4NPsaimrWS?usp=sharing)
+
+This repository implements and compares three Deep Q-Network (DQN) variants—**Vanilla DQN**, **Double DQN**, and **Dueling DQN**—on the classic `InvertedPendulum-v4` control problem. The project analyzes learning efficiency, stability, and overall performance in a continuous control task adapted for discrete actions.
 
 ## 📖 Project Overview
 
@@ -53,11 +55,11 @@ The agents were trained for 500 episodes each. Performance was measured by total
 | **Double DQN** | 7.00 |
 | **Dueling DQN** | 6.70 |
 
-*(Note: In this specific short-duration experiment, Vanilla DQN performed surprisingly well, suggesting overestimation bias was not a primary hindrance for this task configuration.)*
-
 ### Learning Curves
-<img width="1156" height="701" alt="image" src="https://github.com/user-attachments/assets/92f95e94-b4be-4f0e-938e-404380da10db" />
+The plot below shows the 100-episode moving average of rewards. All agents show learning progress, with Vanilla DQN showing slightly higher final performance in this specific run.
 
+![DQN Comparison Plot](dqn_comparison.png)
+*(Note: Ensure you upload the 'dqn_comparison.png' file to your repository for this image to appear. You can generate this by running the last cell of the notebook.)*
 
 ---
 
