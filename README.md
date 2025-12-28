@@ -58,8 +58,8 @@ The agents were trained for 500 episodes each. Performance was measured by total
 ### Learning Curves
 The plot below shows the 100-episode moving average of rewards. All agents show learning progress, with Vanilla DQN showing slightly higher final performance in this specific run.
 
-![DQN Comparison Plot](dqn_comparison.png)
-*(Note: Ensure you upload the 'dqn_comparison.png' file to your repository for this image to appear. You can generate this by running the last cell of the notebook.)*
+<img width="1156" height="701" alt="image" src="https://github.com/user-attachments/assets/f51d1d51-0149-4ec6-90a2-d58e04994f68" />
+
 
 ---
 
