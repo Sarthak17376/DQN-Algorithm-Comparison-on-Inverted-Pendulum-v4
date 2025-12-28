@@ -57,7 +57,8 @@ The agents were trained for 500 episodes each. Performance was measured by total
 
 ### Learning Curves
 ![Performance Graph](performance_plot.png)
-*(Replace with your actual plot image)*
+<img width="1156" height="701" alt="image" src="https://github.com/user-attachments/assets/92f95e94-b4be-4f0e-938e-404380da10db" />
+
 
 ---
 
