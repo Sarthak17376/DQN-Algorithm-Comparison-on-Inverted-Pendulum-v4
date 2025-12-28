@@ -56,7 +56,7 @@ The agents were trained for 500 episodes each. Performance was measured by total
 *(Note: In this specific short-duration experiment, Vanilla DQN performed surprisingly well, suggesting overestimation bias was not a primary hindrance for this task configuration.)*
 
 ### Learning Curves
-![Performance Graph](performance_plot.png)
+![Performance Graph]
 <img width="1156" height="701" alt="image" src="https://github.com/user-attachments/assets/92f95e94-b4be-4f0e-938e-404380da10db" />
 
 
